@@ -13,3 +13,13 @@ const opentab = (tabname) =>{
     event.currentTarget.classList.add("active-links");
     document.getElementById(tabname).classList.add("active-tab");
 };
+
+const menu = document.getElementsByClassName("menu");
+
+open = () =>{
+    menu.style.right = "0";
+}
+
+close = () =>{
+    menu.style.right = "-200px";
+}
