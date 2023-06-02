@@ -403,7 +403,7 @@ nav .fa-solid
 
   .main
   {
-    padding-left: 0px;
+    padding-left: 10pxpx;
   }
 
   #home
@@ -479,4 +479,10 @@ nav .fa-solid
   {
     flex-basis: 100%;
   }
+}
+
+#msg
+{
+  color: #61b752;
+  display: block;
 }
